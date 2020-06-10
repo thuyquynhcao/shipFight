@@ -3,12 +3,12 @@ import { Button, Form, FormGroup, Label, Input }
     from 'reactstrap';
 
 
-class Signin extends Component {
+class Signup extends Component {
     render() {
         return (
-            <Form className="signin-form">
+            <Form className="signup-form">
                 <h1>
-                    <span className="font-weight-bold">Sign in</span>
+                    <span className="font-weight-bold">Sign up</span>
                 </h1>
                 <FormGroup>
                     <Label>Username</Label>
@@ -38,4 +38,4 @@ class Signin extends Component {
     }
 }
 
-export default Signin;
+export default Signup ;

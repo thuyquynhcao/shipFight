@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Login from "./components/Login"
-import Signin from "./components/Signin"
+import Signup from "./components/Signup"
 import ForgetPassword from "./components/ForgetPassword"
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <div className="App">
 
         <Login></Login>
+
 
 
     </div>
